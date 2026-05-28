@@ -105,10 +105,130 @@ let resultado = (7 * 24);
 console.log("7 dias são equivalentes a",resultado,"horas\n");
 //---------------------------------------
 console.log("Exercício 21\n");
+if(idade >= 18){
+    console.log("Maior de idade");
+} else{
+    console.log("Menor de Idade")
+}
 //---------------------------------------
 console.log("Exercício 22\n");
+nota = 50;
+if(nota>=60){
+    console.log("Nota é maior ou igual a 60")
+}else{
+    console.log("Nota menor que 60");
+}
 
 //---------------------------------------
 console.log("Exercício 23\n");
+let senha = 1234;
+if(senha == 12345){
+    console.log("Senha é igual a", senha)
+}else{
+    console.log("Senha é diferente do esperado\n");
+}
 //---------------------------------------
 console.log("Exercício 24\n");
+if(a>b){
+    console.log("a é maior que b");
+}else if(a == b){
+    console.log("a é igual a b");
+}else{
+    console.log("a é menor que b");
+}
+//---------------------------------------
+console.log("Exercício 25\n");
+let temperatura = -10;
+if(temperatura<0){
+    console.log("A Temperatura está abaixo de 0");
+}else{
+    console.log("Temperatura igual ou acima de zero");
+}
+//---------------------------------------
+console.log("Exercício 26\n");
+let usuarioLogado = true;
+console.log(!usuarioLogado);
+//---------------------------------------
+console.log("Exercício 27 e 39\n");
+idade = 20;
+let temCarteira = true;
+let podeDirigir = false;
+if(idade >= 18 && temCarteira === true){
+    podeDirigir = true;
+}else{
+    podeDirigir = false;
+}
+console.log("A pessoa pode dirigir?",podeDirigir,"\n");
+//---------------------------------------
+console.log("Exercício 28\n");
+nota = 75;
+let frequencia =80;
+let aprovado = false;
+if(nota>60 && frequencia>=75){
+    aprovado = true;
+}else{
+    aprovado = false;
+}
+console.log("O aluno foi aprovado?",aprovado,"\n");
+//---------------------------------------
+console.log("Exercício 29\n");
+let temIngresso = true;
+let nomeNaLista = false;
+if(temIngresso === true || nomeNaLista === true){
+    console.log("Pode entrar!");
+}else{
+    console.log("Não pode entrar");
+}
+//---------------------------------------
+console.log("Exercício 30\n");
+let valorCompra = 250;
+let valorDesconto = false;
+if(valorCompra >100 && valorCompra <500){
+    valorDesconto = true;
+console.log("valor esta entre 100 e 500?",valorDesconto,"\n");
+}
+//---------------------------------------
+console.log("Exercício 31\n");
+
+idade = Number(prompt("Digite sua idade: "));
+if(idade >= 18){
+    console.log("Maior de idade!")
+}else{
+    console.log("Menor de idade\n");
+}
+//---------------------------------------
+console.log("Exercício 32 e 33 e 34\n");
+numero = Number(prompt("Digite um número: "));
+if(numero > 0){
+    console.log("Número é Positivo!");
+}else if(numero === 0){
+    console.log("Número é igual a zero!");
+}else{
+    console.log("Número é negativo\n")
+}
+//---------------------------------------
+console.log("Exercício 36\n");
+senha = Number(prompt("Digite sua senha: "));
+let senhaCorreta = "admin123";
+if(senha === senhaCorreta){
+    console.log("Acesso aceito!")
+}else{
+    console.log("Acesso negado\n!");
+}
+//---------------------------------------
+console.log("Exercício 37 e 38\n");
+numero = Number(prompt("Digite um número: "));
+if(numero%2 === 0){
+    console.log("Número é Par!");
+}else{
+    console.log("Número é Ímpar!\n");
+}
+//---------------------------------------
+console.log("Exercício 40\n");
+let compra = Number(prompt("Digite o valor da compra: "));
+let valorFreteGratis = 200;
+if(compra >= valorFreteGratis){
+    console.log("Parabéns você possui frete grátis!");
+}else{
+    console.log("Compra não elegível para frete grátis.\n")
+}
