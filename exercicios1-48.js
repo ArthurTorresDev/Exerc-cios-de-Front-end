@@ -232,3 +232,95 @@ if(compra >= valorFreteGratis){
 }else{
     console.log("Compra não elegível para frete grátis.\n")
 }
+//---------------------------------------
+console.log("Exercício 41\n");
+let idadeParaClassificar = 10;
+if(idadeParaClassificar <12){
+    console.log("criança\n");
+}else if(idadeParaClassificar<=17){
+     console.log("adolescente\n");
+}else if(idadeParaClassificar<60){
+     console.log("Adulto\n");
+}else{
+    console.log("Idoso\n");
+}
+//---------------------------------------
+console.log("Exercício 42\n");
+nota = 60;
+if(nota <60){
+    console.log("Reprovado\n");
+}else if(nota<=79){
+     console.log("Aprovado\n");
+}else{
+    console.log("Aprovado com destaque\n");
+}
+//---------------------------------------
+console.log("Exercício 43\n");
+temperatura = 3;
+if(temperatura<15){
+    console.log("Frio\n");
+}else if(temperatura<=25){
+     console.log("Agradavel\n");
+}else{
+    console.log("Quente\n");
+}
+
+//---------------------------------------
+console.log("Exercício 44\n");
+valorCompra = 600;
+if(valorCompra<100){
+    console.log("sem desconto\n");
+}else if(valorCompra<=499){
+     console.log("10% de desconto\n");
+}else{
+    console.log("20% de desconto\n");
+}
+
+//---------------------------------------
+console.log("Exercício 45\n");
+let classificarNumero = -15;
+if(classificarNumero<0){
+    console.log("Número Negativo\n");
+}else if(classificarNumero===0){
+     console.log("Número Zero\n");
+}else{
+    console.log("Número Positivo\n");
+}
+
+//---------------------------------------
+console.log("Exercício 46\n");
+//A variável calculo que calcula a media
+//das variáveis nota1 nota2 e nota3 foi reutilizada
+//do exercício 18;
+if(calculo<60){
+    console.log("reprovado\n");
+}else if(calculo<=69){
+     console.log("recuperação \n");
+}else{
+    console.log("aprovado\n");
+}
+
+//---------------------------------------
+console.log("Exercício 47\n");
+let salario = Number(Prompt("Digite seu salário: "));
+if(salario<=1500){
+    console.log("Baixo\n");
+}else if(calculo<=4000){
+     console.log("Médio \n");
+}else{
+    console.log("Alto\n");
+}
+
+//---------------------------------------
+console.log("Exercício 48\n");
+let estoque = Number(Prompt("Digite o número de produtos no estoque: "));
+if(estoque <= 0){
+    console.log("Esgotado\n");
+}else if(estoque <10){
+    console.log("Estoque médio\n");
+}else if(estoque <=50){
+    console.log("Estoque medio\n");
+}else{
+    console.log("Estoque alto\n");
+}
+//---------------------------------------
